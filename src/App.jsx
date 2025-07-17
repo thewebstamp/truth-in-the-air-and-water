@@ -5,7 +5,7 @@ import Food from './pages/food/food.jsx';
 import Chemtrails from './pages/chemtrails/chemtrails.jsx';
 import Blog from './pages/blog/blog.jsx';
 import Resources from './pages/resources/resources.jsx';
-import Water from './pages/Water/Water.jsx';
+import Water from './pages/water/water.jsx';
 import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
