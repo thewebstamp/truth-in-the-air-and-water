@@ -1,35 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Homepage from './pages/homepage/homepage.jsx';
+import Food from './pages/food/food.jsx';
+import Chemtrails from './pages/chemtrails/chemtrails.jsx';
+import Blog from './pages/blog/blog.jsx';
+import Resources from './pages/resources/resources.jsx';
+import Water from './pages/Water/Water.jsx';
+import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <HelmetProvider>
+      <div className="app">
+        <Routes>
+          <Route path='/' element={<Homepage />} />
+          <Route path='/chemtrails' element={<Chemtrails />} />
+          <Route path='/food' element={<Food />} />
+          <Route path='/water' element={<Water />} />
+          <Route path='/blog' element={<Blog />} />
+          <Route path='/resources' element={<Resources />} />
+        </Routes>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </HelmetProvider>
   )
 }
 
-export default App
+export default App;

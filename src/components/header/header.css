@@ -1,0 +1,148 @@
+.header-container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 5vw 5px;
+    background: var(--second-background);
+}
+
+.header img.logo {
+    width: 72px;
+}
+
+.header nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header nav li.active a::after, .header nav li a:hover::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2.8px;
+    background: var(--background);
+    margin-top: 1px;
+}
+
+.header nav li a:hover::after {
+    width: 25%;
+}
+
+.header nav li a {
+    font-weight: 700;
+    color: var(--background);
+    font-size: 17.9px;
+}
+
+.header .menu-toggle {
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 3px;
+    background: var(--background);
+    cursor: pointer;
+    border: none;
+}
+
+.header .menu-toggle::before, .header .menu-toggle::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    z-index: 1100;
+    width: 100%;
+    height: 3px;
+    background: var(--background);
+    transition: 0.3s ease;
+}
+.header .menu-toggle::before {
+    top: -9px;
+}
+.header .menu-toggle::after {
+    bottom: -9px;
+}
+
+
+
+@media (max-width: 1150px) {
+.header {
+    padding: 10px 5vw 5px;
+}
+
+.header img.logo {
+    width: 62px;
+}
+
+.header nav ul {
+    gap: 25px;
+}
+
+.header nav li a {
+    font-size: 17.8px;
+}
+}
+
+
+
+@media (max-width: 685px) {
+.header {
+    padding: 8px 5vw 6px;
+}
+
+.header img.logo {
+    width: 52px;
+}
+
+.header nav ul {
+    transition: 0.5s;
+    padding-top: 130px;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    flex-direction: column;
+    gap: 55px;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    background: var(--second-background);
+}
+
+.header nav ul.show-menu {
+    right: 0%;
+}
+
+.header nav li {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.header nav li a {
+    font-size: 18.8px;
+}
+
+.header .menu-toggle {
+    display: block;
+}
+
+.header .menu-toggle.open {
+    background: transparent;
+}
+.header .menu-toggle.open::before {
+    transform: rotate(45deg);
+    top: 0;
+    background: darkred;
+}
+.header .menu-toggle.open::after {
+    transform: rotate(-45deg);
+    bottom: 0;
+    background: darkred;
+}
+}

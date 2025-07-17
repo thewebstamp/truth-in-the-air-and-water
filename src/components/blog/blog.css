@@ -1,0 +1,168 @@
+.blog {
+    background: var(--second-background);
+    padding: 70px 10vw;
+}
+
+.blog .blog-top {
+    width: 70%;
+    margin-bottom: 45px;
+}
+
+.blog-top h2 {
+    font-family: "Fredoka", sans-serif;
+    font-variation-settings:
+    "wdth" 100;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.1px;
+    color: var(-background);
+    text-shadow: 1px 1px 1px rgb(228, 228, 228);
+    margin-bottom: 5px;
+}
+
+.blog-top p {
+    font-size: 21.5px;
+    color: rgb(26, 26, 26);
+}
+
+.blog .blog-base {
+    display: flex;
+    gap: 45px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-base img {
+    width: 40%;
+    border-radius: 5px;
+}
+
+.blog-base .blog-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+.b-card a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.b-card a img {
+    width: 32%;
+    border-radius: 5px;
+}
+
+.b-card a .card-info h3 {
+    font-family: "Fredoka", sans-serif;
+    font-variation-settings:
+    "wdth" 100;
+    font-weight: 600;
+    font-size: 18px;
+    color: #050017b0;
+}
+
+.b-card a .card-info p {
+    margin-top: 5px;
+    color: var(--accent);
+    font-size: 14px;
+}
+
+.b-card hr {
+    border: none;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+
+
+@media (max-width: 1150px) {
+.blog {
+    padding: 55px 10vw;
+    text-align: center;
+}
+
+.blog .blog-top {
+    width: 85%;
+    margin: 0 auto 40px;
+}
+
+.blog-top h2 {
+    font-size: 28px;
+}
+
+.blog .blog-base {
+    flex-direction: column;
+    gap: 35px;
+    justify-content: flex-start;
+}
+
+.blog-base img {
+    width: 100%;
+    display: none;
+}
+
+.blog-base .blog-cards {
+    column-gap: 25px;
+    row-gap: 15px;
+}
+
+.b-card a {
+    margin-bottom: 5px;
+}
+
+.b-card a img {
+    display: block;
+    width: 30%;
+}
+
+.b-card a .card-info {
+    text-align: left;
+}
+
+.b-card a .card-info h3 {
+    font-size: 17px;
+}
+}
+
+
+
+@media (max-width: 685px) {
+.blog {
+    padding: 37px 7vw;
+}
+
+.blog .blog-top {
+    width: 100%;
+    margin: 0 auto 32px;
+}
+
+.blog-top h2 {
+    font-size: 27px;
+}
+
+.blog .blog-base {
+    gap: 20px;
+}
+
+.blog-base img {
+    display: block;
+}
+
+.blog-base .blog-cards {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+}
+
+.b-card a {
+    padding: 0 25px 0 5px;
+}
+
+.b-card a img {
+    width: 27%;
+}
+}

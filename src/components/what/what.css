@@ -1,0 +1,98 @@
+.what {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--background);
+    padding: 70px 10vw;
+}
+
+.what .what-text {
+    width: 47%;
+}
+
+.what-text h2 {
+    font-family: "Fredoka", sans-serif;
+    font-variation-settings:
+    "wdth" 100;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.1px;
+    color: rgb(220, 220, 220);
+    text-shadow: 1px 1px 1px rgb(26, 26, 26);
+    margin-bottom: 18px;
+}
+
+.what-text p {
+    font-weight: 300;
+    font-size: 21.5px;
+    color: var(--text);
+    margin-top: 15px;
+}
+
+.what img {
+    color: var(--text);
+    width: 45%;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 55px;
+}
+
+
+
+@media (max-width: 1150px) {
+.what {
+    flex-direction: column;
+    gap: 55px;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 55px 10vw;
+}
+
+.what .what-text {
+    width: 100%;
+}
+
+.what-text h2 {
+    width: 85%;
+    margin: 0 auto 18px;
+    font-size: 28px;
+}
+
+.what-text p {
+    margin-top: 9px;
+}
+
+.what img {
+    width: 75%;
+}
+}
+
+
+
+@media (max-width: 685px) {
+.what {
+    gap: 50px;
+    padding: 37px 0 0;
+}
+
+.what .what-text {
+    padding: 0 7vw;
+}
+
+.what-text h2 {
+    width: 100%;
+    margin: 0 auto 10px;
+    font-size: 27px;
+}
+
+.what-text p {
+    margin-top: 14px;
+}
+
+.what img {
+    width: 100%;
+    border-radius: 50%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+}

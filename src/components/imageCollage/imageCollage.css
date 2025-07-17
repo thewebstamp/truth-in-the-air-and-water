@@ -1,0 +1,51 @@
+.image-collage {
+    margin: -40px 10vw 10px;
+    width: 40%;
+    position: relative;
+}
+
+.image-collage .chemT-collage1, .image-collage .chemT-collage2 {
+    position: absolute;
+    border-radius: 50%;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+.image-collage .chemT-collage1 {
+    width: 80%;
+    left: 0;
+    box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.5);
+}
+.image-collage .chemT-collage2 {
+    width: 40%;
+    right: 0;
+    border: 7px solid var(--second-background);
+}
+
+.image-collage .collage-height {
+    width: 100%;
+    visibility: hidden;
+}
+
+
+
+@media (max-width: 1150px) {
+.image-collage {
+    padding: 45px 10vw;
+    margin: 0px auto 45px;
+    width: 57%;
+}
+}
+
+
+
+@media (max-width: 685px) {
+.image-collage {
+    padding: 0;
+    margin: 0px 0 10px;
+    width: 100%;
+}
+.image-collage .chemT-collage2 {
+    width: 45%;
+    border: 6.1px solid var(--second-background);
+}
+}

@@ -1,0 +1,172 @@
+.topics {
+    background: var(--second-background);
+    padding: 70px 10vw;
+}
+
+.topics .topics-top {
+    width: 80%;
+    margin-bottom: 35px;
+}
+
+.topics-top .title {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: var(--accent);
+}
+
+.topics-top h2 {
+    font-family: "Fredoka", sans-serif;
+    font-variation-settings:
+    "wdth" 100;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.1px;
+    color: var(--background);
+    text-shadow: 1px 1px 1px rgb(228, 228, 228);
+}
+
+.topics .topics-base {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.topics-base .card {
+    position: relative;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .card-text {
+    position: absolute;
+    bottom: 0px;
+    padding: 11px 11px;
+}
+.card .card-text.first-card {
+    background: #2644602b;
+    backdrop-filter: blur(5px);
+}
+.card .card-text.second-card {
+    background: #3c4b30dd;
+    backdrop-filter: blur(8px);
+}
+.card .card-text.third-card {
+    background: #1f1c0eb1;
+    backdrop-filter: blur(8px);
+}
+
+.card-text h3 {
+    font-family: "Fredoka", sans-serif;
+    font-variation-settings:
+    "wdth" 100;
+    font-weight: 600;
+    font-size: 22px;
+    color: whitesmoke;
+}
+
+.card-text p {
+    font-weight: 300;
+    font-size: 18.5px;
+    color: rgb(231, 231, 231);
+    margin: 10px 0 25px;
+}
+
+.card-text button {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.5px;
+    background: white;
+    border: none;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    color: black;
+    width: 100%;
+}
+
+
+
+@media (max-width: 1150px) {
+.topics {
+    padding: 55px 10vw;
+    text-align: center;
+}
+
+.topics .topics-top {
+    width: 85%;
+    margin: 0 auto 40px;
+}
+
+.topics-top h2 {
+    font-size: 28px;
+}
+
+.topics .topics-base {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 35px;
+}
+
+.topics-base .card {
+    margin: auto;
+    width: 55%;
+    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.3);
+}
+
+.card .card-text {
+    padding: 11px 11px;
+}
+
+.card-text h3 {
+    font-size: 21.5px;
+}
+
+.card-text button {
+    font-size: 18px;
+}
+}
+
+
+
+@media (max-width: 685px) {
+.topics {
+    padding: 55px 0vw;
+}
+
+.topics .topics-top {
+    padding: 0 7vw;
+    width: 100%;
+}
+
+.topics-top h2 {
+    font-size: 27px;
+}
+
+.topics .topics-base {
+    row-gap: 40px;
+    padding: 0 5vw;
+}
+
+.topics-base .card {
+    width: 100%;
+    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.2);
+}
+
+.card-text h3 {
+    font-size: 21px;
+}
+
+.card-text p {
+    margin: 5px 0 15px;
+}
+}

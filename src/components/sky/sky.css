@@ -1,0 +1,100 @@
+.whats-in-the-sky {
+    background: var(--second-background);
+    padding: 50px 10vw 70px;
+}
+
+.whats-in-the-sky .whats-in-the-sky-text {
+    width: 88%;
+}
+
+.whats-in-the-sky-text h2 {
+    font-family: "Fredoka", sans-serif;
+    font-variation-settings:
+    "wdth" 100;
+    font-weight: 600;
+    font-size: 31px;
+    letter-spacing: 0.1px;
+    color: var(--background);
+    text-shadow: 1px 1px 1px rgb(228, 228, 228);
+    margin-bottom: 18px;
+    max-width: 760px;
+}
+
+.whats-in-the-sky-text p {
+    font-weight: 400;
+    font-size: 21px;
+    color: black;
+}
+
+.whats-in-the-sky-text ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 40px;
+    text-align: left;
+    margin: 25px auto 40px;
+    list-style: circle;
+}
+
+.whats-in-the-sky-text ul li {
+    font-weight: 400;
+    font-size: 19px;
+    color: black;
+    margin-top: 14px;
+}
+
+.whats-in-the-sky-text ul li strong {
+    color: darkred;
+    font-size: 21px;
+}
+
+
+
+@media (max-width: 1150px) {
+.whats-in-the-sky {
+    padding: 55px 10vw;
+    text-align: center;
+}
+
+.whats-in-the-sky .whats-in-the-sky-text {
+    width: 100%;
+    margin: auto;
+}
+
+.whats-in-the-sky-text h2 {
+    width: 85%;
+    margin: 0 auto 18px;
+    font-size: 29px;
+    margin-bottom: 13px;
+}
+
+.whats-in-the-sky-text ul {
+    width: 85%;
+    gap: 8px 40px;
+    margin: 17px auto 30px;
+}
+}
+
+
+
+@media (max-width: 685px) {
+.whats-in-the-sky {
+    padding: 37px 7vw;
+}
+
+.whats-in-the-sky-text h2 {
+    width: 100%;
+    margin: 0 auto 11px;
+    font-size: 27px;
+}
+
+.whats-in-the-sky-text ul {
+    width: 80%;
+    grid-template-columns: 1fr;
+    gap: 4px 0;
+}
+
+.whats-in-the-sky-text ul li {
+    font-size: 19.5px;
+}
+}

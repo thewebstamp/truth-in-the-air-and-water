@@ -1,0 +1,316 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 5vw 25px;
+    background: var(--background);
+    color: var(--text);
+    font-weight: 300;
+}
+
+.footer .footer-top {
+    display: grid;
+    grid-template-columns: 2fr 1.1fr 1fr;
+    column-gap: 80px;
+}
+
+.f-first h3, .f-second h3, .f-third h3 {
+    width: fit-content;
+    color: var(--header-color);
+    font-family: "Fredoka", sans-serif;
+    font-variation-settings:
+    "wdth" 100;
+    font-weight: 600;
+    font-size: var(--fontH-third-f);
+
+}
+
+.f-first .f-mission-t {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.f-first .f-mission-t img {
+    width: 70px;
+    cursor: pointer;
+}
+
+.f-first .f-mission-b {
+    margin-top: 10px;
+    font-size: var(--fontP-footer-f);
+    line-height: 1.38rem;
+}
+
+.f-second h3::after, .f-third h3::after {
+    content: "";
+    margin-top: 3px;
+    display: block;
+    width: 40%;
+    height: 3.5px;
+    background: linear-gradient(90deg, var(--accent), var(--header-color));
+}
+
+.f-second .newsletter-text {
+    margin-top: 17px;
+    font-size: var(--fontP-footer-f);
+    font-weight: 400;
+    line-height: 1.45rem;
+}
+
+.f-second .subcription-box {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 6px 9px;
+    border: 3px solid var(--header-color);
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.subcription-box input {
+    width: 100%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18.5px;
+    color: var(--text);
+    outline: none;
+    border: none;
+    background: none;
+}
+.subcription-box input::-webkit-input-placeholder {
+    color: rgba(245, 245, 245, 0.565);
+    font-weight: 400;
+}
+
+.subcription-box button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.subcription-box button .paperplane {
+    font-size: 24px;
+    color: var(--header-color);
+    transition: 0.3s;
+}
+
+.subcription-box button:hover .paperplane {
+    color: var(--accent);
+}
+
+.f-second .social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a .facebook {
+    width: 19px;
+    height: 19px;
+    color: var(--accent);
+    border: 3px solid var(--accent);
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.f-third ul {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    font-size: var(--fontP-footer-f);
+}
+
+.f-third ul li {
+    width: fit-content;
+
+}
+
+.f-third ul li.active {
+    font-weight: 400;
+    color: var(--header-color);
+}
+
+.f-third ul li.active::after {
+    content: "";
+    display: block;
+    width: 25%;
+    height: 2px;
+    background: var(--header-color);
+    border-top: 2px;
+}
+
+.f-third ul li a {
+    color: var(--text);
+}
+
+.footer .footer-base {
+    width: 45%;
+}
+
+.footer-base .copyright {
+    font-size: var(--fontP-footer-f);
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.footer-base .disclaimer {
+    font-size: 16px;
+    line-height: 1.13rem;
+}
+
+
+
+@media (max-width: 1150px) {
+.footer {
+    gap: 45px;
+    padding: 45px 12vw 35px;
+    text-align: center;
+}
+
+.footer .footer-top {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 70px;
+    row-gap: 45px;
+}
+
+.f-first {
+    grid-column: span 2;
+}
+
+.f-first h3, .f-second h3, .f-third h3 {
+    width: auto;
+}
+
+.f-first .f-mission-t {
+    gap: 7px;
+    justify-content: center;
+}
+
+.f-first .f-mission-t img {
+    width: 60px;
+}
+
+.f-first .f-mission-b {
+    margin-top: 5px;
+}
+
+.f-second h3::after, .f-third h3::after {
+    width: 40px;
+    margin: auto;
+    height: 3.5px;
+}
+
+.f-second .newsletter-text {
+    margin-top: 20px;
+    line-height: 1.4rem;
+}
+
+.f-second .subcription-box {
+    padding: 5px 10px;
+    border: 2px solid var(--header-color);
+    margin-top: 8px;
+}
+
+.subcription-box button .paperplane {
+    font-size: 22px;
+}
+
+.f-second .social-icons {
+    margin-top: 14px;
+}
+
+.social-icons a .facebook {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--accent);
+    padding: 7px;
+}
+
+.f-third ul {
+    margin-top: 20px;
+    gap: 11px;
+}
+
+.f-third ul li {
+    width: auto;
+}
+
+.f-third ul li.active::after {
+    width: 15px;
+    margin: auto;
+}
+
+.footer .footer-base {
+    width: auto;
+}
+
+.footer-base .copyright {
+    font-size: var(--fontP-footer-f);
+    margin-bottom: 7px;
+}
+
+.footer-base .disclaimer {
+    line-height: 1.1rem;
+}
+}
+
+@media (max-width: 685px) {
+.footer {
+    gap: 45px;
+    padding: 40px 7vw 23px;
+}
+
+.footer .footer-top {
+    grid-template-columns: 1fr;
+    column-gap: 70px;
+    row-gap: 45px;
+}
+
+.f-first {
+    grid-column: span 1;
+}
+
+.f-first h3 {
+    font-size: 20px;
+}
+.f-second h3, .f-third h3 {
+    font-size: 22px;
+}
+
+.f-first .f-mission-t {
+    gap: 2px;
+}
+
+.f-first .f-mission-t img {
+    width: 50px;
+}
+
+.f-first .f-mission-b {
+    margin-top: 5px;
+}
+
+.f-second h3::after, .f-third h3::after {
+    height: 3px;
+}
+
+.f-second .subcription-box {
+    margin: 9px 5vw 0;
+}
+
+.subcription-box button .paperplane {
+    font-size: 20px;
+}
+
+.social-icons a .facebook {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--accent);
+    padding: 7px;
+}
+
+.footer-base .copyright {
+    font-size: 17px;
+}
+}
