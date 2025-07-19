@@ -35,7 +35,7 @@ function HealthEffects() {
         <section>
             <div className="health-effects">
                 <div className="health-wrapper">
-                    <h2><strong>Invisible Toxins, Real Consequences</strong></h2>
+                    <h2>Invisible Toxins, Real Consequences</h2>
                     <p>Behind the clear blue sky lies a cocktail of chemicals affecting our health. The impact of these airborne pollutants is far from speculative — it’s happening now, and the consequences are serious.</p>
 
                     <div className="effects-grid">

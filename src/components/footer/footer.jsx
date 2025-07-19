@@ -49,7 +49,7 @@ function Footer({ home, chemtrails, food, water, blog, resources }) {
 
                 <div className="footer-base">
                     <p className="copyright">&copy; {new Date().getFullYear()} Truth in the Air and Water. All rights reserved.</p>
-                    <p className="disclaimer">All logos, trademarks, and copyrights displayed on this website are the property of their respective owners. Use of these materials does not imply endorsement by these companies. No licenses or other rights to such logos and/or trademarks are granted.</p>
+                    <p className="disclaim">All logos, trademarks, and copyrights displayed on this website are the property of their respective owners. Use of these materials does not imply endorsement by these companies. No licenses or other rights to such logos and/or trademarks are granted.</p>
                 </div>
             </div>
         </footer>

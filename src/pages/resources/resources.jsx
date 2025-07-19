@@ -1,12 +1,12 @@
 import Footer from "../../components/footer/footer.jsx";
 import Header from "../../components/header/header.jsx";
-import Progress from "../../components/progress/progress.jsx";
+import ResourcesComp from "../../components/resourcesComp/resourcesComp.jsx";
 
 function Resources() {
     return (
         <div className="resources">
             <Header resources='active' />
-            <Progress message="Page developement is in progress." />
+            <ResourcesComp />
             <Footer resources='active' />
         </div>
     )

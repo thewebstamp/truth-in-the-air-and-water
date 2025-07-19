@@ -1,0 +1,132 @@
+.water-health-effects-alt {
+  background-color: var(--background);
+  padding: 60px 10vw 70px;
+}
+
+.water-health-effects-alt h2 {
+  font-family: "Fredoka", sans-serif;
+  font-variation-settings:
+  "wdth" 100;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.1px;
+  color: rgb(220, 220, 220);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  margin-bottom: 1rem;
+  color: rgb(224, 224, 224);
+  max-width: 780px;
+}
+
+.water-health-effects-alt p {
+  font-size: 21.5px;
+  font-weight: 300;
+  max-width: 780px;
+  margin-bottom: 2rem;
+  color: var(--text);
+}
+
+.effects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 960px;
+}
+
+.effect-card {
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--text);
+  border-left: 4px solid #38bdf8;
+  border-left: 4px solid rgb(255, 105, 105);
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.effect-card:hover {
+  transform: translateY(-4px);
+}
+
+.effect-icon {
+  font-size: 1.9rem;
+  color: #38bdf8;
+  margin-right: 1.2rem;
+  min-width: 2.5rem;
+}
+
+.effect-text h3 {
+  font-size: 19.5px;
+  margin-bottom: 0.5rem;
+  color: var(--background);
+}
+
+.effect-text p {
+  font-size: 18px;
+  color: rgb(54, 54, 54);
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+
+
+
+@media (max-width: 1150px) {
+.water-health-effects-alt {
+  padding: 55px 10vw;
+}
+
+.water-health-effects-alt h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.water-health-effects-alt p {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.effects-list {
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.effect-icon {
+  font-size: 1.8rem;
+  margin-right: 0.8rem;
+}
+
+.effect-text p {
+  margin-bottom: 0;
+  text-align: left;
+}
+}
+
+
+
+
+@media (max-width: 685px) {
+.water-health-effects-alt {
+  padding: 45px 7vw;
+}
+
+.water-health-effects-alt h2 {
+  font-size: 27px;
+}
+
+.water-health-effects-alt p {
+  margin-bottom: 35px;
+}
+
+.effects-list {
+  gap: 1rem;
+}
+
+.effect-icon {
+  margin-right: 0.5rem;
+}
+
+.effect-text p {
+  margin-bottom: 0;
+}
+}

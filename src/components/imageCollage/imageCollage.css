@@ -1,5 +1,5 @@
 .image-collage {
-    margin: -40px 10vw 10px;
+    margin: -50px 10vw 10px;
     width: 40%;
     position: relative;
 }
@@ -30,7 +30,7 @@
 
 @media (max-width: 1150px) {
 .image-collage {
-    padding: 45px 10vw;
+    padding: 35px 10vw 40;
     margin: 0px auto 45px;
     width: 57%;
 }
@@ -41,7 +41,7 @@
 @media (max-width: 685px) {
 .image-collage {
     padding: 0;
-    margin: 0px 0 10px;
+    margin: -25px 0 10px;
     width: 100%;
 }
 .image-collage .chemT-collage2 {

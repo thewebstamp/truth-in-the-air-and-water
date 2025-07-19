@@ -56,14 +56,14 @@ function Blog() {
                     <div className="blog-cards">
                         {
                             blogCards.map((card, i) => (
-                                <div key={i} onClick={() => {navigate('/blog')}} className="b-card">
-                                    <a href={card.id}>
+                                <div key={i} onClick={() => navigate(`/blog${card.id}`)} className="b-card">
+                                    <div className='a'>
                                         <img src={card.image} alt="" />
                                         <div className="card-info">
                                             <h3>{card.title}</h3>
                                             <p>{card.date}</p>
                                         </div>
-                                    </a>
+                                    </div>
                                     <hr />
                                 </div>
                             ))

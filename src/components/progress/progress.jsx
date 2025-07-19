@@ -1,10 +1,6 @@
-import './progress.css';
-
-function Progress({message}) {
+function Progress() {
     return (
-        <div className="progress">
-            <h2>{message}</h2>
-        </div>
+       <div className="progress"></div>
     )
 };
 

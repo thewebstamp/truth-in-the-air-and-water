@@ -6,6 +6,13 @@ function Topics() {
     const navigate = useNavigate();
     const cards = [
         {
+            topic: "Water Contamination 🚰",
+            description: "Fluoride, heavy metals, and microplastics — our tap water isn’t as clean as we’re told. Understand what’s in it and how to protect yourself.",
+            cta: "/water",
+            img: images.waterContamination,
+            className: "third-card card-text"
+        },
+        {
             topic: "Chemtrails 🛩️",
             description: "What’s really being sprayed in our skies? Uncover the patterns, patents, and purposes behind aerial chemical dispersal that mainstream science won’t address.",
             cta: "/chemtrails",
@@ -18,13 +25,6 @@ function Topics() {
             cta: "/food",
             img: images.foodToxins,
             className: "second-card card-text"
-        },
-        {
-            topic: "Water Contamination 🚰",
-            description: "Fluoride, heavy metals, and microplastics — our tap water isn’t as clean as we’re told. Understand what’s in it and how to protect yourself.",
-            cta: "/water",
-            img: images.waterContamination,
-            className: "third-card card-text"
         }
     ];
 

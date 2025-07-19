@@ -111,7 +111,7 @@
 @media (max-width: 685px) {
 .join {
     gap: 60px;
-    padding: 37px 0vw 0px;
+    padding: 45px 0vw 0px;
 }
 
 .join .join-top {
@@ -136,7 +136,7 @@
 
 .join img {
     width: 100%;
-    border-right: none;
+    border: none;
     border-bottom-left-radius: 0;
 }
 }

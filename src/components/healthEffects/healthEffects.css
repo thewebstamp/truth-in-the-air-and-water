@@ -7,7 +7,7 @@
     font-family: "Fredoka", sans-serif;
     font-variation-settings:
     "wdth" 100;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 30px;
     letter-spacing: 0.1px;
     color: rgb(220, 220, 220);
@@ -44,7 +44,7 @@
 
 .effect-item .icon {
     font-size: 31px;
-    color: var(--accent);
+    color: #D55524;
     margin-bottom: 12px;
 }
 
@@ -109,7 +109,7 @@
 
 @media (max-width: 685px) {
 .health-effects {
-    padding: 40px 7vw;
+    padding: 45px 7vw;
 }
 
 .health-wrapper h2 {

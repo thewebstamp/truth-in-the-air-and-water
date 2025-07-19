@@ -1,0 +1,106 @@
+.toxic-section {
+  background: var(--background);
+  padding: 60px 10vw 70px;
+}
+
+.toxic-section h2 {
+  font-family: "Fredoka", sans-serif;
+  font-variation-settings:
+  "wdth" 100;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.1px;
+  color: rgb(220, 220, 220);
+  text-shadow: 1px 1px 1px rgb(26, 26, 26);
+  margin-bottom: 1rem;
+}
+
+.section-intro {
+  max-width: 700px;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 21.5px;
+  color: var(--text);
+}
+
+.toxic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+}
+
+.toxic-card {
+  background: var(--text);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.toxic-card:hover {
+  transform: translateY(-5px);
+}
+
+.toxic-card .icon {
+  font-size: 1.9rem;
+  margin-bottom: 0.7rem;
+  color: #D55524;
+}
+
+.toxic-card h3 {
+  font-size: 19px;
+  margin-bottom: 0.4rem;
+  color: var(--background);
+}
+
+.toxic-card p {
+  font-size: 17.5px;
+  color: rgb(60, 60, 60);
+}
+
+
+
+@media (max-width: 1150px) {
+.toxic-section {
+  padding: 55px 10vw;
+  text-align: center;
+}
+
+.toxic-section h2 {
+  font-size: 28px;
+  margin: 0 auto 10px;
+}
+
+.section-intro {
+  margin-bottom: 40px;
+}
+
+.toxic-card .icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.toxic-card h3 {
+  margin-bottom: 0.4rem;
+}
+
+.toxic-card p {
+  font-size: 17.8px;
+}
+}
+
+
+
+@media (max-width: 685px) {
+.toxic-section {
+  padding: 45px 7vw;
+}
+
+.toxic-section h2 {
+  font-size: 27px;
+}
+
+.section-intro {
+  margin-bottom: 35px;
+}
+}
