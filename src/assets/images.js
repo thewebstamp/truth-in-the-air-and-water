@@ -19,6 +19,12 @@ import food2 from './food2-min.jpg';
 import fPage1 from './fPage1-min.jpg';
 import blog from './blog-min.jpg';
 import join from './join-min.jpg';
+import fertilizer from './fertilizer-min.jpg';
+import betterChoice from './betterChoice-min.jpg';
+import clear from './clear-min.jpg';
+import cook from './cook-min.jpg';
+import search from './search-min.jpg';
+import toxins from './toxins-min.jpg';
 
 const images = {
     logo,
@@ -41,7 +47,13 @@ const images = {
     food2,
     fPage1,
     blog,
-    join
+    join,
+    fertilizer,
+    betterChoice,
+    clear,
+    cook,
+    search,
+    toxins
 };
 
 export default images;

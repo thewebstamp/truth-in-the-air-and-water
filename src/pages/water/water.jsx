@@ -13,7 +13,7 @@ function Water() {
     const heroH2 = "Clear Doesn’t Mean Clean";
     const heroP = "Water is life — but in today’s world, even life’s most essential element is compromised. Behind the illusion of purity lies a mix of heavy metals, microplastics, chemical runoff, and pharmaceutical waste. It’s time to question what we’re really drinking — and demand better.";
     const seo = "Contaminated water concept";
-    const heroImg = images.water;
+    const heroImg = images.clear;
     const sHClass = "sub-hero-image2";
     const whatH2 = "Tap Water Isn’t As Safe As You Think";
     const whatP1 = "Municipal water treatment is not designed to give you clean, healthy water — it’s designed to meet minimum legal standards. Chlorine, fluoride, ammonia, and other chemicals are routinely added, while heavy metals, pharmaceuticals, and industrial waste often slip through unchecked.";
@@ -39,9 +39,9 @@ function Water() {
                 <SubHero sHClass={sHClass} heroH2={heroH2} heroImg={heroImg} heroP={heroP} seo={seo} />
                 <What whatH2={whatH2} whatP1={whatP1} whatP2={whatP2} whatImg={images.water} />
                 <WaterContaminants />
-                <ImageShowcase imgShow1={images.drinkWater} imgShow2={images.drinkWater} />
+                <ImageShowcase imgShow1={images.cook} imgShow2={images.cook} />
                 <WaterHealthEffects />
-                <Join image={images.water1} h2={h2} p1={p1} href={href} a1={a1} a2={a2} link1={link1} link2={link2} />
+                <Join image={images.water2} h2={h2} p1={p1} href={href} a1={a1} a2={a2} link1={link1} link2={link2} />
                 <Footer water='active' />
             </div>
         </>

@@ -14,7 +14,7 @@ function Chemtrails() {
     const heroP = "These aren't ordinary contrails. The persistent trails you're seeing in the sky contain chemical compounds designed to manipulate the weather, disrupt ecosystems, and expose the population to toxic elements. This isn't speculation — it's happening, and it's time the truth came to light.";
     const seo = "Interlacing chemtrails above a suburban skyline";
     const sHClass = "sub-hero-image";
-    const heroImg = images.chemT1;
+    const heroImg = images.chemtrails;
     const whatH2 = "What Are Chemtrails?";
     const whatP1 = "Chemtrails, short for “chemical trails,” are not just vaporized condensation like traditional jet contrails. They are long-lasting, grid-like formations left behind by high-altitude aircraft — and they don’t behave like normal clouds. These trails linger for hours, spread unnaturally, and eventually form hazy, synthetic cloud cover.";
     const whatP2 = "Independent researchers, whistleblowers, and scientists have raised serious concerns about what’s actually being sprayed — including heavy metals like aluminum, barium, and strontium. These compounds are linked to respiratory illnesses, soil degradation, and atmospheric manipulation under secretive geoengineering programs.";
@@ -39,7 +39,7 @@ function Chemtrails() {
                 <SubHero sHClass={sHClass} heroH2={heroH2} heroImg={heroImg} heroP={heroP} seo={seo} />
                 <What whatH2={whatH2} whatP1={whatP1} whatP2={whatP2} whatImg={images.chemT2} />
                 <Sky />
-                <ImageCollage id='chemtrails-page-img' iCClass1="chemT-collage1" iCClass2="chemT-collage2" iCImg1={images.chemtrails} iCImg2={images.chemT3} />
+                <ImageCollage id='chemtrails-page-img' iCClass1="chemT-collage1" iCClass2="chemT-collage2" iCImg1={images.chemT1} iCImg2={images.chemT3} />
                 <HealthEffects />
                 <Join image={images.chemtrail2} h2={h2} p1={p1} p2={p2} href={href} a1={a1} a2={a2} link1={link1} link2={link2} />
                 <Footer chemtrails='active' />

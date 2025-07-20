@@ -18,7 +18,7 @@ function Food() {
     const sHClass = "sub-hero-image2";
     const whatH2 = "What They Don’t Tell You on the Label";
     const whatp1 = "Food labels often hide more than they reveal. Terms like “natural flavoring,” “low-fat,” or “sugar-free” can mask dangerous additives, artificial sweeteners, and lab-made chemicals. Many ingredients are disguised with scientific names or grouped under vague labels, keeping consumers unaware of what they’re really eating. Even serving sizes are manipulated to downplay harmful content. The truth? What appears healthy may be hiding toxic elements that harm our bodies over time.";
-    const whatImg = images.food;
+    const whatImg = images.betterChoice;
     const h2 = "Awareness is the First Step Toward Change";
     const p1 = "The food system isn’t broken — it’s working exactly as designed: to maximize profit, not health. But you don’t have to play along. Educate yourself. Prioritize whole, organic foods. Support local farmers. Read labels, question marketing, and push back against the industries profiting from silence. Your fork is your first tool in the fight for truth, health, and autonomy.";
     const a1 = "Truth In The Air";
@@ -38,7 +38,7 @@ function Food() {
                 <Header food='active' />
                 <SubHero sHClass={sHClass} heroH2={heroH2} heroImg={heroImg} heroP={heroP} heroP2={heroP2} seo={seo} />
                 <ToxicIngredients />
-                <ImageShowcase imgShow1={images.drinkWater} imgShow2={images.drinkWater} />
+                <ImageShowcase imgShow1={images.fertilizer} imgShow2={images.fertilizer} />
                 <What whatH2={whatH2} whatP1={whatp1} whatImg={whatImg} />
                 <FoodContamination />
                 <Join image={images.food2} h2={h2} p1={p1} href={href} a1={a1} a2={a2} link1={link1} link2={link2} />

@@ -33,7 +33,7 @@
   background: var(--background);
   padding: 2rem 1.25rem;
   border-radius: 10px;
-  border-left: 6px solid #c0392b;
+  border-left: 6px solid #ac5045;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   text-align: left;
   transition: transform 0.2s ease;

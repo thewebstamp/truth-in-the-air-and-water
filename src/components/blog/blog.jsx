@@ -20,7 +20,7 @@ function Blog() {
         {
             title: "The Hidden Toxins in Everyday Food",
             date: "July 11, 2025",
-            image: images.food1,
+            image: images.toxins,
             id: "#food-one"
         },
         {

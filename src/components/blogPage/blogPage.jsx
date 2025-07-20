@@ -23,7 +23,7 @@ const blogs = [
   {
     title: "The Hidden Toxins in Everyday Food",
     date: "July 11, 2025",
-    image: images.food1,
+    image: images.toxins,
     content: `From high-fructose corn syrup to aspartame and Red 40, many ingredients in our food are banned in other countries. U.S. food policy allows additives with known links to behavioral disorders and cancer. Nutritionist Kelly Saunders calls them "profit poisons" — cheap to use, but costly to your health.`,
     sources: ["https://www.centerforfoodsafety.org"],
     id: "food-one"
