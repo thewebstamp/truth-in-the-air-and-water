@@ -1,5 +1,4 @@
-import React from "react";
-import "./waterHealthEffects.css";
+import "./WaterHealthEffects.css";
 import { FaLungs, FaBrain, FaChild, FaDisease, FaExclamationTriangle } from "react-icons/fa";
 
 const healthEffects = [

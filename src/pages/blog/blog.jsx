@@ -13,12 +13,19 @@ function Blog() {
     const href = "#newsletter";
 
     return (
-        <div className="blog-section">
-            <Header blog='active' />
-            <BlogPage />
-            <Join image={images.search} h2={h2} p1={p1} a1={a1} a2={a2} href={href} link2={link2} />
-            <Footer blog='active' />
-        </div>
+        <>
+            <Helmet>
+                <title>Blog | Real Stories of Environmental Truth | Truth in the Air and Water</title>
+                <meta name="description" content="Dive into real-life accounts, investigations, and whistleblower reports on chemtrails, toxic water, contaminated food, and more. Our blog exposes what others won't." />
+            </Helmet>
+
+            <div className="blog-section">
+                <Header blog='active' />
+                <BlogPage />
+                <Join image={images.search} h2={h2} p1={p1} a1={a1} a2={a2} href={href} link2={link2} />
+                <Footer blog='active' />
+            </div>
+        </>
     )
 };
 
