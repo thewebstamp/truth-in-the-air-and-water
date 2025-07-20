@@ -1,4 +1,4 @@
-import Blog from "../../components/blog/blog.jsx";
+import BlogP from "../../components/blogP/blogP.jsx";
 import Footer from "../../components/footer/footer.jsx";
 import Header from "../../components/header/header.jsx";
 import Hero from "../../components/hero/hero.jsx";
@@ -31,7 +31,7 @@ function Homepage() {
                 <Mission />
                 <Topics />
                 <Truth />
-                <Blog />
+                <BlogP />
                 <Join image={images.join} h2={h2} p1={p1} p2={p2} a1={a1} a2={a2} href={href} link2={link2} />
                 <Footer home='active' />
             </div>

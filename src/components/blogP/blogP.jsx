@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom';
-import './blog.css';
+import './blogP.css';
 import images from '../../assets/images';
 
-function Blog() {
+function BlogP() {
     const navigate = useNavigate();
     const blogCards = [
         {
@@ -75,4 +75,4 @@ function Blog() {
     )
 };
 
-export default Blog;
+export default BlogP;
