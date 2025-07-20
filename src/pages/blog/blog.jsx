@@ -3,6 +3,7 @@ import Header from "../../components/header/header.jsx";
 import Join from "../../components/join/join.jsx";
 import images from "../../assets/images.js";
 import BlogPage from "../../components/blogPage/blogPage.jsx";
+import { Helmet } from 'react-helmet-async';
 
 function Blog() {
     const h2 = "Don't Stop Here";

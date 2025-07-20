@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import './blogP.css';
 import images from '../../assets/images';
-import { Helmet } from 'react-helmet-async';
 
 function BlogP() {
     const navigate = useNavigate();
