@@ -19,6 +19,15 @@ function Blog() {
             <Helmet>
                 <title>Blog | Bill Gates, GMOs, and Africa’s Food Future: The Hidden Agenda</title>
                 <meta name="description" content="Bill Gates’ push for GMO seeds in Africa raises serious concerns about food control, health risks, and hunger. Discover the hidden agenda behind the GMO campaign and why Africa’s food sovereignty matters." />
+
+                <meta property="og:title" content="Blog | Bill Gates, GMOs, and Africa’s Food Future: The Hidden Agenda" />
+                <meta property="og:description"
+                    content="Bill Gates’ push for GMO seeds in Africa raises serious concerns about food control, health risks, and hunger. Discover the hidden agenda behind the GMO campaign and why Africa’s food sovereignty matters." />
+                <meta property="og:type" content="website" />
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Blog | Bill Gates, GMOs, and Africa’s Food Future: The Hidden Agenda" />
+                <meta name="twitter:description" content="Bill Gates’ push for GMO seeds in Africa raises serious concerns about food control, health risks, and hunger. Discover the hidden agenda behind the GMO campaign and why Africa’s food sovereignty matters." />
             </Helmet>
 
             <div className="blog-section">
