@@ -25,6 +25,9 @@ import clear from './clear-min.jpg';
 import cook from './cook-min.jpg';
 import search from './search-min.jpg';
 import toxins from './toxins-min.jpg';
+import nogmo from './nogmo-min.jpg';
+import danger from './danger-min.jpg';
+import gate from './gate-min.jpeg';
 
 const images = {
     logo,
@@ -53,7 +56,10 @@ const images = {
     clear,
     cook,
     search,
-    toxins
+    toxins,
+    nogmo,
+    danger,
+    gate
 };
 
 export default images;

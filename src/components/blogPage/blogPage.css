@@ -1,6 +1,6 @@
 .blog-page {
   margin: 0 auto;
-  padding: 110px 10vw 70px;
+  padding: 40px 10vw 70px;
   background: var(--second-background);
 }
 
@@ -98,7 +98,7 @@
 
 @media (max-width: 1150px) {
 .blog-page {
-    padding: 105px 10vw 55px;
+    padding: 0px 10vw 55px;
     }
 
 .blog-page h2 {
@@ -122,7 +122,7 @@
 
 @media (max-width: 685px) {
 .blog-page {
-    padding: 85px 7vw 45px;
+    padding: 0px 7vw 45px;
     }
 
 .blog-page h2 {

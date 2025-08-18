@@ -7,6 +7,7 @@ import Blog from './pages/blog/blog.jsx';
 import Resources from './pages/resources/resources.jsx';
 import Water from './pages/water/water.jsx';
 import { HelmetProvider } from 'react-helmet-async';
+import GMO from './components/gmo/gmo.jsx';
 
 function App() {
   return (

@@ -1,0 +1,104 @@
+.blog-gmo-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 110px 2rem 0;
+  color: #222;
+}
+
+h2 {
+  font-family: "Fredoka", sans-serif;
+  font-variation-settings:
+  "wdth" 100;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 0.1px;
+  color: var(--background);
+  text-shadow: 1px 1px 1px rgb(228, 228, 228);
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  color: #00723f;
+  border-left: 5px solid darkred;
+  padding-left: 0.6rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 21.5px;
+}
+
+.blog-gmo-container ul {
+  list-style: disc inside;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin: 1rem 0;
+  font-size: 20px;
+}
+
+strong {
+  color: #000;
+}
+
+em {
+  color: #555;
+  font-style: italic;
+}
+
+/* Image styles */
+.blog-gmo-image {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.blog-gmo-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.img-gmo-caption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+
+
+@media (max-width: 1150px) {
+.blog-gmo-container {
+  padding: 105px 10vw 55px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+}
+
+
+
+@media (max-width: 1150px) {
+    
+.blog-gmo-container {
+    padding: 85px 7vw 45px;
+}
+
+h2 {
+    font-size: 29px;
+}
+}

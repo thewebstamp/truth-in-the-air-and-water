@@ -4,6 +4,7 @@ import Join from "../../components/join/join.jsx";
 import images from "../../assets/images.js";
 import BlogPage from "../../components/blogPage/blogPage.jsx";
 import { Helmet } from 'react-helmet-async';
+import GMO from "../../components/gmo/gmo.jsx";
 
 function Blog() {
     const h2 = "Don't Stop Here";
@@ -22,6 +23,7 @@ function Blog() {
 
             <div className="blog-section">
                 <Header blog='active' />
+                <GMO />
                 <BlogPage />
                 <Join image={images.search} h2={h2} p1={p1} a1={a1} a2={a2} href={href} link2={link2} />
                 <Footer blog='active' />
