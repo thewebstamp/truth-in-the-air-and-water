@@ -17,8 +17,8 @@ function Blog() {
     return (
         <>
             <Helmet>
-                <title>Blog | Real Stories of Environmental Truth | Truth in the Air and Water</title>
-                <meta name="description" content="Dive into real-life accounts, investigations, and whistleblower reports on chemtrails, toxic water, contaminated food, and more. Our blog exposes what others won't." />
+                <title>Blog | Bill Gates, GMOs, and Africa’s Food Future: The Hidden Agenda</title>
+                <meta name="description" content="Bill Gates’ push for GMO seeds in Africa raises serious concerns about food control, health risks, and hunger. Discover the hidden agenda behind the GMO campaign and why Africa’s food sovereignty matters." />
             </Helmet>
 
             <div className="blog-section">
